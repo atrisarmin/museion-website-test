@@ -3,40 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Museion Sandbox Studio</title>
+  <title>Fictional studio directory</title>
   <link rel="canonical" href="https://atrisarmin.github.io/museion-website-test/">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Museion Sandbox Studio",
-  "url": "https://atrisarmin.github.io/museion-website-test/",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "16:00"
-  }
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Museion Sandbox Studio",
+      "url": "https://atrisarmin.github.io/museion-website-test/museion-sandbox-studio.html",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Juniper Test Studio",
+      "url": "https://atrisarmin.github.io/museion-website-test/juniper-test-studio.html",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "15:00"
+      }
+    }
+  ]
 }
   </script>
   <style>
     html { color-scheme: light dark; }
-    body { margin: 4rem auto; max-width: 36rem; padding: 0 1.25rem; font: 1.125rem/1.5 system-ui, sans-serif; }
+    body { margin: 3rem auto; max-width: 36rem; padding: 0 1.25rem; font: 1.125rem/1.5 system-ui, sans-serif; }
     h1, h2 { line-height: 1.15; }
+    section { margin-top: 2rem; }
   </style>
 </head>
 <body>
   <main>
-    <h1>Museion Sandbox Studio</h1>
-    <p>This is a fictional business used for a website test.</p>
-    <h2>Opening hours</h2>
-    <p>Monday through Friday, 9:00 a.m. to 4:00 p.m.</p>
+    <h1>Fictional studio directory</h1>
+    <p>These businesses are fictional and are used to test Museion.</p>
+    <section>
+      <h2><a href="museion-sandbox-studio.html">Museion Sandbox Studio</a></h2>
+      <p>Monday through Friday, 9:00 a.m. to 4:00 p.m.</p>
+    </section>
+    <section>
+      <h2><a href="juniper-test-studio.html">Juniper Test Studio</a></h2>
+      <p>Monday through Friday, 10:00 a.m. to 3:00 p.m.</p>
+    </section>
   </main>
 </body>
 </html>
